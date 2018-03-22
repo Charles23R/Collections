@@ -89,6 +89,11 @@ public class LinkedList<T> implements List<T> {
         if (indice>tailleListe || indice<0){
             System.out.println("Erreur");
         }
+
+        else if(indice==0){
+            head = head.getNext();
+        }
+
         else {
             Node tempo=head;
             Node tempo2=head.getNext();
