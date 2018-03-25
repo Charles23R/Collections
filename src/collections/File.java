@@ -7,7 +7,7 @@ public class File<T> {
     private LinkedList<T> linkedList = new LinkedList<>();
 
     public void add(T contenu){
-       linkedList.add(0, contenu);
+       linkedList.add(contenu);
     }
 
     public T remove(){

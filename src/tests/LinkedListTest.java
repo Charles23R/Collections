@@ -65,10 +65,13 @@ class LinkedListTest {
 
     @Test
     void clear() {
+        linkedlist.clear();
+        assertEquals(0, linkedlist.size());
     }
 
     @Test
     void size() {
+        assertEquals(10, linkedlist.size());
     }
 
 }
